@@ -1,0 +1,513 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f5ef;
+    overflow-x: hidden;
+}
+
+
+ nav{
+    position: relative;
+    text-align: right;
+}
+
+#navicon{
+    color: #fcd923;
+}
+
+.navdiv1{
+    padding-top: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: #027CD5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.navdiv1 a{
+    text-decoration: none;
+    color: #FFFFFFCC;
+
+}
+
+.navdiv1 a:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+
+}
+
+.div1link{
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #FFFFFFCC;
+    height: 100%;
+}
+
+.navdiv2{
+    text-align: center;
+    width: 100%;
+    height: 50px;   
+    background-color: #027CD5;
+
+}
+
+.navdiv2 input[type=text]{
+    display: inline-block;
+    position: relative;
+    width: 565px;
+    height: 35px;
+    border-radius: 3px;
+    border: 0;
+    margin-top: 6px;
+}
+
+.navdiv2 input[type=text]:active{
+    border: 0px;
+    outline-style: none;
+}
+
+.navdiv2 button{
+    width: 115px;
+    height: 37px;
+    margin-left: 10px;
+}
+
+
+.searchbar{
+    position: absolute;
+    display: inline;
+}
+
+.navdiv2 img{
+    margin-top: 5px;
+    margin-right: 20px;
+} 
+
+.navdiv2stuff{
+    margin-right: 800px;
+}
+
+.navdiv1stuff{
+    margin-right: 455px;
+}
+
+button.search{
+    margin-top: 6px;
+    margin-left: 0px;
+    position: absolute;
+    background-color: #fcd923;
+    border: none;
+    color: #006db5;
+    font-weight: 600;
+}
+
+button.search:active{
+    background-color: white;
+}
+
+button.cart{
+    margin-top: 6px;
+    margin-left: 130px;
+    position: absolute;
+    background-color: #006db5;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+button.cart:active{
+    background-color: white;
+    color: #006db5;
+}
+
+.navdiv3{
+    width: 100%;
+    height: 50px;
+    background-color: #006db5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.drop{
+    margin: 0px 8px 8px 8px;
+    display: inline-block;
+    height: 50px;
+    max-height: 50px;
+    padding-top: 8px;
+}
+
+.drop p{
+    display: inline;
+}
+
+.drop span{
+    display: inline;
+    color: white;
+    opacity: 0.4;
+}
+
+.drop:hover{
+    color: #fcd923;
+}
+
+.alldrop{
+    margin-right: 450px;
+}
+
+.navdiv4{
+    width: 980px;
+    height: 30px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 475px;
+    border: 2px solid #f0f0f0;
+    text-align: left;
+}
+
+.navdiv4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline;
+    color: #666;
+    margin-left: 12px;
+}
+
+.navdiv4 span{
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.navdiv4 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    border-right: 1px solid rgba(102,102,102, 0.3);
+    margin-right: 6px;
+    padding-right: 6px;
+}
+
+.navdiv4 a:hover{
+    text-decoration: dotted;
+    color: #fcd923;
+}
+
+.leftleft{
+    float: left;
+    width: 23%;
+    background-color: blueviolet;
+    /* visibility: hidden; */
+    height: 2000px;
+}
+
+.left{
+    text-align: right;
+    margin: 0px;
+    width: 40%;
+    height: 2000px;
+    display: inline-block;
+    background-color: red;
+}
+
+.right{
+    position: absolute;
+    width: 36%;
+    display: inline-block;
+    float: right;
+    background-color: yellow;   
+    padding-left: 20px;
+    /* padding-top:  30px; */
+    height: 2000px;
+}
+
+.bottom{
+    /* background-color: greenyellow; */
+
+}
+
+.banner{
+    margin-top: 20px;
+}
+
+.divleft1{
+    margin-top: 15px;
+}
+
+.buttonsdiv{
+    width: 138.9px;
+    height: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-image: linear-gradient(to bottom, #505050, #424242);
+    border: 2px solid #333;
+    display: inline-block;
+    text-align: center;
+}
+
+.buttonsdiv:hover{
+    color: #424242;
+    background-image: linear-gradient(to bottom, white, white);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid #fcd923;
+}
+
+.navdeals{
+    width: 730px;
+    height: 50px;
+    float: right;
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom, #505050, #424242);
+
+}
+
+.lefttext{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.righttext{
+    margin-top: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#arrow{
+    font-size: 16px;
+    color: white;
+}
+
+#yellow{
+    font-size: 16px;
+    color: #fcd923;
+}
+
+#yellowtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fcd923;
+}
+
+#yellowtxtbold{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fcd923;
+    font-weight: 600;
+}
+
+.fancytext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+
+.box{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    width: 162.5px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box img{
+    position: relative;
+}
+
+#red{
+    color: red;
+    font-size: 12px;
+}
+
+.left hr{
+    width: 150px;
+    border: 1px solid red;
+}
+
+#black{
+    font-size: 12px;
+}
+
+.grey{
+    font-size: 9px;
+    opacity: 0.8;
+}
+
+.appbox1{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    top: 95%;
+    background-color: #027CD5; 
+}
+
+.white{
+    font-size: 12px;
+    color: white;
+    line-height: 0px;
+}
+
+.box:hover{
+    border: 2px solid #fcd923;
+}
+
+.box:hover #red{
+    background-color: red;
+    color: white;
+}
+
+.navmobiles{
+    margin-bottom: 5px;
+    text-align: left;
+    width: 730px;
+    height: 40px;
+    float: right;
+    margin-top: 25px;
+    background-image: linear-gradient(to bottom, #505050, #424242);
+}
+
+.textleft{
+    margin-top: 12.5px;
+    margin-left: 10px;
+}
+
+.imgs img:hover{
+    border: 2px solid #fcd923;
+}
+
+.imghover{
+    display: block;
+    margin-top: 19.4px;
+    margin-bottom: 19.4px;
+    width: 230px;
+}
+
+.imghover:hover{
+    border: 2px solid #fcd923;
+}
+
+.justlaunched{
+    background-color: white;
+    width: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewall{
+    height: 30px;
+}
+
+#title{
+    border: 1px solid #e4e4e4;
+    height: 45px;
+    width: 230px;
+    border-left: 3px solid #fcd923;
+}
+
+.infodivs{
+    border: 1px solid #e4e4e4;
+    height: 45px;
+    width: 230px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.infodivs:hover{
+    border: 2px solid #fcd923;
+}
+
+.smallimg{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.viewall{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.launchy{
+    margin-top: 10px;
+    background-color: #006db5;
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    line-height: 25px;
+    text-indent: 5px;
+}
+
+.lastrightdiv{
+    padding: 10px;
+    width: 220px;
+    height: 165px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastrightdiv h3{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.lastrightdiv p{
+    color: #848484;
+}
+
+.lastrightdiv button{
+    border: 1px solid #ec6723;
+    background-image: linear-gradient(#f77219, #f75b16);
+    color: white;
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+}
+
+.lastrightdiv button:active{
+    background-image: linear-gradient(#f75b16, #f77219);
+}
+
+.divbottom1 div{
+    display: inline-block;
+    width: 236px;
+}
+
+.divbottom1{
+    margin-left: 465px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divbottom1 a{
+    text-decoration: none;
+    color: #565656;
+    font-size: 11px;
+}
+
+.divbottom1 h3{
+    color: #565656;
+    font-size: 13px;
+}
+
+.divbottom1 hr{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #565656;
+}
